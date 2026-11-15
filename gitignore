@@ -1,0 +1,26 @@
+# Trained model files - the model is ~145 MB (over GitHub's 100 MB file limit).
+# Regenerate them any time with:  python train.py
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / local config
+.env
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded dataset cache (scikit-learn)
+scikit_learn_data/
